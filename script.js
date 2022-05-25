@@ -50,7 +50,7 @@ function generatePassword() {
         console.log(final);
        
       }
-      if (final.length >size){break;}
+      if (final.length >= size){break;}
       
     }return final
   } else {
