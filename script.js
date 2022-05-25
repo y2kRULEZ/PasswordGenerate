@@ -10,12 +10,16 @@ function writePassword() {
 
 }
 function generatePassword(){
-  var size = prompt("Please enter 8 to 128 characters")
-  if(size < 8 || size>128){
-    alert("Must be between 8 and 128")
-    size = prompt("Please enter 8 to 128 characters")
+  var size = prompt("Please enter 8 to 128 characters");
+  if(size > 8 && size<128){
+    var isLowercase = confirm("Include lowercase?");
+    var isUppercase = confirm("Include Uppercase?");
+    var isNum = confirm("Include numbers?");
+    var isSpecial = confirm("Include special characters?");
   }else{
-    var islowercase = confirm("Include lowercase?")
+    alert("Must be between 8 and 128");
+    size = prompt("Please enter 8 to 128 characters");
+    
   }
 
 }
