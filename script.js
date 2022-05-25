@@ -41,13 +41,16 @@ function generatePassword() {
         var positionString = Math.floor(Math.random() * 10);
         final = final + number[positionString];
         console.log(final);
+        
       }
       if (isSpecial === true) {
         var positionString = Math.floor(Math.random() * 10);
         var stringchar =  special[positionString].toString();
         final = final + stringchar;
         console.log(final);
+       
       }
+      if (final.length >size){break;}
       
     }return final
   } else {
