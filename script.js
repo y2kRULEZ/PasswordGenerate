@@ -16,7 +16,7 @@ function writePassword() {
 function generatePassword() {
   var final = ""
   var size = prompt("Please enter 8 to 128 characters");
-  if (size > 8 && size < 128) {
+  if (size > 7 && size < 129) {
     var isLowercase = confirm("Include lowercase?");
     console.log(isLowercase);
     var isUppercase = confirm("Include Uppercase?");
