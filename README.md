@@ -7,13 +7,12 @@ We were tasked with finishing the code provided by adding a generate function in
 
 ## Usage
 
-To use this website click the live link or open the html file included in this repository.
+To use this website click the live link: https://y2krulez.github.io/PasswordGenerate/
+ or open the html file included in this repository in your browser.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt text](assets/images/Screen%20Shot%202022-05-25%20at%209.30.00%20AM.png)
+    
 
 ## Credits
 
